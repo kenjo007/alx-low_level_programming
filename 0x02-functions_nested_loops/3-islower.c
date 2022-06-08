@@ -4,7 +4,7 @@
  * @c: checks for the letter c if it is in lower case
  * Return: 1 if not c and 0 if c is in lowercase
  */
-int _islower(char c)
+int _islower(int c)
 {
 	if (c < 97 || c > 122)
 	{
