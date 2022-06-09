@@ -3,7 +3,7 @@
  * print_triangle - prints a triangle
  * @size: takes in an integer for the size of triangle
  */
-void print_trainglr(int size)
+void print_traingle(int size)
 {
 	int row, column, k;
 
