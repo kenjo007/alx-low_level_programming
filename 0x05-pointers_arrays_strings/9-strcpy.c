@@ -3,21 +3,15 @@
  * _strcpy - update value
  * @dest: value to be evaluate
  * @src: value to be evaluate
- * Return: not
+ * Return: pint to dest
  */
 char *_strcpy(char *dest, char *src)
 {
-	int 1 = 0;
-	int x = 0;
+	int 1 = -1;
 
-	while (*(src + 1) != '\0')
-	{
+	do {
 		l++;
-	}
-	for ( ; x < 1 ; x++)
-	{
-		dest[x] = src[x];
-	}
-	dest[1] = '\0';
+		dest[i] = src[i];
+	} while (src[i] != '\0');
 	return (dest);
 }
